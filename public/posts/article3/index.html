@@ -2,11 +2,13 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Article3 :: My New Hugo Site</title>
+    <title>Visualisation Audio avec JS et GSAP :: My New Hugo Site</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="Lier le développement web et la composition musicale est au cœur de mon Ikigai. Mon objectif à moyen terme est de créer un site portfolio immersif où mes propres compositions seraient plus interactive a l&rsquo;aide de visualisations.
+C&rsquo;est dans cette optique que je me suis penché sur cet article technique de Smashing Magazine : &ldquo;A Guide To Audio Visualization With JavaScript And GSAP&rdquo;. Bien que le tutoriel se concentre sur l&rsquo;enregistrement via un microphone, les technologies qu&rsquo;il présente sont exactement celles dont j&rsquo;ai besoin pour transformer un fichier MP3 en expérience visuelle.
+" />
 <meta name="keywords" content=", " />
 
   <meta name="robots" content="noodp" />
@@ -43,8 +45,10 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Article3">
-<meta property="og:description" content="" />
+<meta property="og:title" content="Visualisation Audio avec JS et GSAP">
+<meta property="og:description" content="Lier le développement web et la composition musicale est au cœur de mon Ikigai. Mon objectif à moyen terme est de créer un site portfolio immersif où mes propres compositions seraient plus interactive a l&rsquo;aide de visualisations.
+C&rsquo;est dans cette optique que je me suis penché sur cet article technique de Smashing Magazine : &ldquo;A Guide To Audio Visualization With JavaScript And GSAP&rdquo;. Bien que le tutoriel se concentre sur l&rsquo;enregistrement via un microphone, les technologies qu&rsquo;il présente sont exactement celles dont j&rsquo;ai besoin pour transformer un fichier MP3 en expérience visuelle.
+" />
 <meta property="og:url" content="http://localhost:1313/posts/article3/" />
 <meta property="og:site_name" content="My New Hugo Site" />
 
@@ -132,7 +136,7 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="http://localhost:1313/posts/article3/">Article3</a>
+    <a href="http://localhost:1313/posts/article3/">Visualisation Audio avec JS et GSAP</a>
   </h1>
   <div class="post-meta"><time class="post-date">2026-01-24</time>
     
@@ -141,9 +145,11 @@
   
     <span class="post-tags">
       
-      #<a href="http://localhost:1313/tags/"></a>&nbsp;
+      #<a href="http://localhost:1313/tags/devfront/">DevFront</a>&nbsp;
       
-      #<a href="http://localhost:1313/tags/"></a>&nbsp;
+      #<a href="http://localhost:1313/tags/webdesign/">WebDesign</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/gsap/">GSAP</a>&nbsp;
       
     </span>
   
@@ -153,7 +159,27 @@
 
   
 
-  <div class="post-content"></div>
+  <div class="post-content"><div>
+        <p>Lier le développement web et la composition musicale est au cœur de mon <strong>Ikigai</strong>. Mon objectif à moyen terme est de créer un site portfolio immersif où mes propres compositions seraient plus interactive a l&rsquo;aide de visualisations.</p>
+<p>C&rsquo;est dans cette optique que je me suis penché sur cet article technique de <em>Smashing Magazine</em> : <em>&ldquo;A Guide To Audio Visualization With JavaScript And GSAP&rdquo;</em>. Bien que le tutoriel se concentre sur l&rsquo;enregistrement via un microphone, les technologies qu&rsquo;il présente sont exactement celles dont j&rsquo;ai besoin pour transformer un fichier MP3 en expérience visuelle.</p>
+<h2 id="web-audio-api">Web Audio API<a href="#web-audio-api" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>J&rsquo;ai appris que tout part de l&rsquo;<code>AudioContext</code>.
+L&rsquo;article explique comment créer un <strong>nœud d&rsquo;analyse</strong> (<code>AnalyserNode</code>). C&rsquo;est cette element qui permet de ne pas se contenter de jouer le son, mais d&rsquo;intercepter les données fréquentielles en temps réel (le spectre audio).</p>
+<p>Pour mon futur projet, la seule différence sera la source : au lieu d&rsquo;utiliser <code>navigator.mediaDevices.getUserMedia</code> (le micro), j&rsquo;utiliserai une source média classique (mon fichier audio). Le reste de la logique d&rsquo;analyse reste identique.</p>
+<h2 id="canvas--gsap">Canvas &amp; GSAP<a href="#canvas--gsap" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Pour la partie visuelle, l&rsquo;article évite le DOM classique (trop lent pour 60 images/seconde) et privilégie l&rsquo;élément HTML5 <code>&lt;Canvas&gt;</code>.</p>
+<p>C&rsquo;est là que <strong>GSAP (GreenSock Animation Platform)</strong> entre en jeu. Plutôt que de redessiner manuellement chaque frame de manière rigide, GSAP permet d&rsquo;animer les valeurs numériques de manière fluide.
+L&rsquo;auteur utilise le <code>gsap.ticker</code> pour synchroniser les calculs audio avec le rafraîchissement de l&rsquo;écran. C&rsquo;est beaucoup plus performant qu&rsquo;un simple <code>setInterval</code> et cela garantit que l&rsquo;animation &ldquo;pulse&rdquo; parfaitement en rythme avec la musique.</p>
+<h2 id="ce-que-je-retiens-pour-mon-futur-projet">Ce que je retiens pour mon futur projet<a href="#ce-que-je-retiens-pour-mon-futur-projet" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Cet article m&rsquo;a donné la roadmap technique pour mon futur site musical :</p>
+<ol>
+<li><strong>Récupérer les données</strong> : Utiliser <code>getByteFrequencyData</code> pour obtenir les basses, médiums et aigus de mes morceaux.</li>
+<li><strong>Dessiner</strong> : Créer des formes géométriques dans un Canvas.</li>
+<li><strong>Animer</strong> : Utiliser GSAP pour faire bouger ces formes en fonction du volume et de la fréquence.</li>
+</ol>
+<p>C&rsquo;est un élément qui me permettra de passer d&rsquo;un simple &ldquo;lecteur audio&rdquo; à une <strong>expérience interactive</strong> pour les visiteurs de mon site. Il faudra tout de même que je me penche de plus près sur GSAP pour l&rsquo;implémenter de manière correcte et connaître ses possiblilités et limitations.</p>
+
+      </div></div>
 
   
     
@@ -167,7 +193,7 @@
         
         <span class="button next">
             <a href="http://localhost:1313/posts/article2/">
-                <span class="button__text">Article2</span>
+                <span class="button__text">La balise `&lt;dialog&gt;` native</span>
                 <span class="button__icon">→</span>
             </a>
         </span>

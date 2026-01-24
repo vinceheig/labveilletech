@@ -14,16 +14,22 @@
     <loc>http://localhost:1313/posts/article2/</loc>
     <lastmod>2026-01-24T16:26:48+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/devfront/</loc>
+    <lastmod>2026-01-24T16:26:45+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/article1/</loc>
+    <lastmod>2026-01-24T16:26:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-24T16:26:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/webdesign/</loc>
     <lastmod>2026-01-24T16:26:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ia/</loc>
     <lastmod>2026-01-24T15:29:32+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/methodologie/</loc>
-    <lastmod>2026-01-24T15:29:32+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-24T15:29:32+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/llm/</loc>

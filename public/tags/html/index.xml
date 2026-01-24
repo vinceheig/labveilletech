@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/html/</link>
+    <description>Recent content in HTML on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jan 2026 16:26:48 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La balise &lt;dialog&gt; native</title>
+      <link>http://localhost:1313/posts/article2/</link>
+      <pubDate>Sat, 24 Jan 2026 16:26:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/article2/</guid>
+      <description>&lt;p&gt;Il y a encore peu de temps, dès que je devais intégrer une modale (ou &amp;ldquo;pop-up&amp;rdquo;) sur un site, mon réflexe était quasi automatique : chercher une librairie externe ou bricoler une &lt;code&gt;div&lt;/code&gt; avec un &lt;code&gt;position: fixed&lt;/code&gt; et beaucoup de JavaScript.&lt;/p&gt;
+&lt;p&gt;Je pensais gagner du temps, mais je me rends compte aujourd&amp;rsquo;hui que je passais à côté d&amp;rsquo;une solution bien plus propre et native : la balise &lt;code&gt;&amp;lt;dialog&amp;gt;&lt;/code&gt;. Cet article de &lt;em&gt;La Console&lt;/em&gt; m&amp;rsquo;a ouvert les yeux sur la puissance de cet élément HTML standard.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Il y a encore peu de temps, dès que je devais intégrer une modale (ou &amp;ldquo;pop-up&amp;rdquo;) sur un site, mon réflexe était quasi automatique : chercher une librairie externe ou bricoler une &lt;code&gt;div&lt;/code&gt; avec un &lt;code&gt;position: fixed&lt;/code&gt; et beaucoup de JavaScript.&lt;/p&gt;
+&lt;p&gt;Je pensais gagner du temps, mais je me rends compte aujourd&amp;rsquo;hui que je passais à côté d&amp;rsquo;une solution bien plus propre et native : la balise &lt;code&gt;&amp;lt;dialog&amp;gt;&lt;/code&gt;. Cet article de &lt;em&gt;La Console&lt;/em&gt; m&amp;rsquo;a ouvert les yeux sur la puissance de cet élément HTML standard.&lt;/p&gt;
+&lt;h2 id=&#34;pourquoi-jarrête-les-librairies-de-modales&#34;&gt;Pourquoi j&amp;rsquo;arrête les librairies de Modales&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;article met en lumière un point crucial : utiliser des &lt;code&gt;div&lt;/code&gt; pour créer des modales est un &amp;ldquo;bricolage&amp;rdquo; qui demande énormément d&amp;rsquo;efforts pour être correct. Il faut gérer manuellement l&amp;rsquo;ouverture, la fermeture, le clic à l&amp;rsquo;extérieur, et surtout, l&amp;rsquo;accessibilité.&lt;/p&gt;
+&lt;p&gt;En adoptant &lt;code&gt;&amp;lt;dialog&amp;gt;&lt;/code&gt;, je bénéficie de trois avantages immédiats qui simplifient mon code et améliorent ma sémantique :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Zéro dépendance :&lt;/strong&gt; Plus besoin d&amp;rsquo;alourdir mon projet avec une librairie tierce juste pour afficher un message.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Une API simple :&lt;/strong&gt; L&amp;rsquo;élément se contrôle très simplement en JavaScript natif avec &lt;code&gt;showModal()&lt;/code&gt; pour l&amp;rsquo;ouvrir et &lt;code&gt;close()&lt;/code&gt; pour le fermer. Fini les usines à gaz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Le &amp;ldquo;Top Layer&amp;rdquo; :&lt;/strong&gt; Le navigateur gère lui-même l&amp;rsquo;affichage au-dessus de tout le reste, sans que j&amp;rsquo;aie à me battre avec des &lt;code&gt;z-index: 99999&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;laccessibilité--le-vrai-game-changer&#34;&gt;L&amp;rsquo;Accessibilité : Le vrai &amp;ldquo;Game Changer&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;C&amp;rsquo;est sur ce point que l&amp;rsquo;article m&amp;rsquo;a le plus convaincu. Auparavant, rendre une modale accessible était un calvaire. Avec &lt;code&gt;&amp;lt;dialog&amp;gt;&lt;/code&gt;, le navigateur fait le gros du travail pour moi, conformément aux normes WCAG :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gestion du Focus (Focus Trap) :&lt;/strong&gt; Quand la modale s&amp;rsquo;ouvre, la navigation au clavier (Tab) reste &amp;ldquo;piégée&amp;rdquo; à l&amp;rsquo;intérieur. Je n&amp;rsquo;ai plus besoin d&amp;rsquo;écrire de scripts complexes pour empêcher l&amp;rsquo;utilisateur de sélectionner des éléments en arrière-plan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La touche Échap (Esc) :&lt;/strong&gt; C&amp;rsquo;est un détail qui compte. Nativement, la touche Échap ferme la modale. C&amp;rsquo;est un comportement attendu par les utilisateurs que je devais coder à la main avant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lecteurs d&amp;rsquo;écran :&lt;/strong&gt; La sémantique est implicite. Les outils d&amp;rsquo;assistance savent qu&amp;rsquo;il s&amp;rsquo;agit d&amp;rsquo;une boîte de dialogue sans que je doive surcharger mon HTML d&amp;rsquo;attributs &lt;code&gt;aria-&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;design-et-personnalisation&#34;&gt;Design et Personnalisation&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;avais peur que le design natif soit trop rigide, mais l&amp;rsquo;article montre qu&amp;rsquo;il est très facile à styliser. L&amp;rsquo;élément &lt;code&gt;&amp;lt;dialog&amp;gt;&lt;/code&gt; accepte le CSS comme n&amp;rsquo;importe quel bloc.&lt;/p&gt;
+&lt;p&gt;Mieux encore, le pseudo-élément &lt;code&gt;::backdrop&lt;/code&gt; permet de cibler spécifiquement l&amp;rsquo;arrière-plan (le voile sombre derrière la modale). Je peux donc créer des effets de flou ou d&amp;rsquo;assombrissement en quelques lignes de CSS :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;dialog&lt;/span&gt;::&lt;span style=&#34;color:#a6e22e&#34;&gt;backdrop&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  backdrop-filter: blur(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background&lt;/span&gt;: rgba(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+  </channel>
+</rss>

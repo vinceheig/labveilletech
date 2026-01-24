@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSAP on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/gsap/</link>
+    <description>Recent content in GSAP on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jan 2026 16:26:51 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/gsap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualisation Audio avec JS et GSAP</title>
+      <link>http://localhost:1313/posts/article3/</link>
+      <pubDate>Sat, 24 Jan 2026 16:26:51 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/article3/</guid>
+      <description>&lt;p&gt;Lier le développement web et la composition musicale est au cœur de mon &lt;strong&gt;Ikigai&lt;/strong&gt;. Mon objectif à moyen terme est de créer un site portfolio immersif où mes propres compositions seraient plus interactive a l&amp;rsquo;aide de visualisations.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est dans cette optique que je me suis penché sur cet article technique de &lt;em&gt;Smashing Magazine&lt;/em&gt; : &lt;em&gt;&amp;ldquo;A Guide To Audio Visualization With JavaScript And GSAP&amp;rdquo;&lt;/em&gt;. Bien que le tutoriel se concentre sur l&amp;rsquo;enregistrement via un microphone, les technologies qu&amp;rsquo;il présente sont exactement celles dont j&amp;rsquo;ai besoin pour transformer un fichier MP3 en expérience visuelle.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Lier le développement web et la composition musicale est au cœur de mon &lt;strong&gt;Ikigai&lt;/strong&gt;. Mon objectif à moyen terme est de créer un site portfolio immersif où mes propres compositions seraient plus interactive a l&amp;rsquo;aide de visualisations.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est dans cette optique que je me suis penché sur cet article technique de &lt;em&gt;Smashing Magazine&lt;/em&gt; : &lt;em&gt;&amp;ldquo;A Guide To Audio Visualization With JavaScript And GSAP&amp;rdquo;&lt;/em&gt;. Bien que le tutoriel se concentre sur l&amp;rsquo;enregistrement via un microphone, les technologies qu&amp;rsquo;il présente sont exactement celles dont j&amp;rsquo;ai besoin pour transformer un fichier MP3 en expérience visuelle.&lt;/p&gt;
+&lt;h2 id=&#34;web-audio-api&#34;&gt;Web Audio API&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai appris que tout part de l&amp;rsquo;&lt;code&gt;AudioContext&lt;/code&gt;.
+L&amp;rsquo;article explique comment créer un &lt;strong&gt;nœud d&amp;rsquo;analyse&lt;/strong&gt; (&lt;code&gt;AnalyserNode&lt;/code&gt;). C&amp;rsquo;est cette element qui permet de ne pas se contenter de jouer le son, mais d&amp;rsquo;intercepter les données fréquentielles en temps réel (le spectre audio).&lt;/p&gt;
+&lt;p&gt;Pour mon futur projet, la seule différence sera la source : au lieu d&amp;rsquo;utiliser &lt;code&gt;navigator.mediaDevices.getUserMedia&lt;/code&gt; (le micro), j&amp;rsquo;utiliserai une source média classique (mon fichier audio). Le reste de la logique d&amp;rsquo;analyse reste identique.&lt;/p&gt;
+&lt;h2 id=&#34;canvas--gsap&#34;&gt;Canvas &amp;amp; GSAP&lt;/h2&gt;
+&lt;p&gt;Pour la partie visuelle, l&amp;rsquo;article évite le DOM classique (trop lent pour 60 images/seconde) et privilégie l&amp;rsquo;élément HTML5 &lt;code&gt;&amp;lt;Canvas&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est là que &lt;strong&gt;GSAP (GreenSock Animation Platform)&lt;/strong&gt; entre en jeu. Plutôt que de redessiner manuellement chaque frame de manière rigide, GSAP permet d&amp;rsquo;animer les valeurs numériques de manière fluide.
+L&amp;rsquo;auteur utilise le &lt;code&gt;gsap.ticker&lt;/code&gt; pour synchroniser les calculs audio avec le rafraîchissement de l&amp;rsquo;écran. C&amp;rsquo;est beaucoup plus performant qu&amp;rsquo;un simple &lt;code&gt;setInterval&lt;/code&gt; et cela garantit que l&amp;rsquo;animation &amp;ldquo;pulse&amp;rdquo; parfaitement en rythme avec la musique.&lt;/p&gt;
+&lt;h2 id=&#34;ce-que-je-retiens-pour-mon-futur-projet&#34;&gt;Ce que je retiens pour mon futur projet&lt;/h2&gt;
+&lt;p&gt;Cet article m&amp;rsquo;a donné la roadmap technique pour mon futur site musical :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Récupérer les données&lt;/strong&gt; : Utiliser &lt;code&gt;getByteFrequencyData&lt;/code&gt; pour obtenir les basses, médiums et aigus de mes morceaux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dessiner&lt;/strong&gt; : Créer des formes géométriques dans un Canvas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Animer&lt;/strong&gt; : Utiliser GSAP pour faire bouger ces formes en fonction du volume et de la fréquence.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;C&amp;rsquo;est un élément qui me permettra de passer d&amp;rsquo;un simple &amp;ldquo;lecteur audio&amp;rdquo; à une &lt;strong&gt;expérience interactive&lt;/strong&gt; pour les visiteurs de mon site.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

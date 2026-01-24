@@ -2,11 +2,13 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Article2 :: My New Hugo Site</title>
+    <title>La balise `&lt;dialog&gt;` native :: My New Hugo Site</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="Il y a encore peu de temps, dès que je devais intégrer une modale (ou &ldquo;pop-up&rdquo;) sur un site, mon réflexe était quasi automatique : chercher une librairie externe ou bricoler une div avec un position: fixed et beaucoup de JavaScript.
+Je pensais gagner du temps, mais je me rends compte aujourd&rsquo;hui que je passais à côté d&rsquo;une solution bien plus propre et native : la balise &lt;dialog&gt;. Cet article de La Console m&rsquo;a ouvert les yeux sur cet élément HTML standard.
+" />
 <meta name="keywords" content=", " />
 
   <meta name="robots" content="noodp" />
@@ -43,8 +45,10 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Article2">
-<meta property="og:description" content="" />
+<meta property="og:title" content="La balise `&lt;dialog&gt;` native">
+<meta property="og:description" content="Il y a encore peu de temps, dès que je devais intégrer une modale (ou &ldquo;pop-up&rdquo;) sur un site, mon réflexe était quasi automatique : chercher une librairie externe ou bricoler une div avec un position: fixed et beaucoup de JavaScript.
+Je pensais gagner du temps, mais je me rends compte aujourd&rsquo;hui que je passais à côté d&rsquo;une solution bien plus propre et native : la balise &lt;dialog&gt;. Cet article de La Console m&rsquo;a ouvert les yeux sur cet élément HTML standard.
+" />
 <meta property="og:url" content="http://localhost:1313/posts/article2/" />
 <meta property="og:site_name" content="My New Hugo Site" />
 
@@ -132,7 +136,7 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="http://localhost:1313/posts/article2/">Article2</a>
+    <a href="http://localhost:1313/posts/article2/">La balise <code>&lt;dialog&gt;</code> native</a>
   </h1>
   <div class="post-meta"><time class="post-date">2026-01-24</time>
     
@@ -141,9 +145,9 @@
   
     <span class="post-tags">
       
-      #<a href="http://localhost:1313/tags/"></a>&nbsp;
+      #<a href="http://localhost:1313/tags/devfront/">DevFront</a>&nbsp;
       
-      #<a href="http://localhost:1313/tags/"></a>&nbsp;
+      #<a href="http://localhost:1313/tags/html/">HTML</a>&nbsp;
       
     </span>
   
@@ -153,7 +157,34 @@
 
   
 
-  <div class="post-content"></div>
+  <div class="post-content"><div>
+        <p>Il y a encore peu de temps, dès que je devais intégrer une modale (ou &ldquo;pop-up&rdquo;) sur un site, mon réflexe était quasi automatique : chercher une librairie externe ou bricoler une <code>div</code> avec un <code>position: fixed</code> et beaucoup de JavaScript.</p>
+<p>Je pensais gagner du temps, mais je me rends compte aujourd&rsquo;hui que je passais à côté d&rsquo;une solution bien plus propre et native : la balise <code>&lt;dialog&gt;</code>. Cet article de <em>La Console</em> m&rsquo;a ouvert les yeux sur cet élément HTML standard.</p>
+<h2 id="pourquoi-utiliser-la-modale-native">Pourquoi utiliser la modale native<a href="#pourquoi-utiliser-la-modale-native" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>L&rsquo;article met en lumière un point crucial : utiliser des <code>div</code> pour créer des modales est un &ldquo;bricolage&rdquo; qui demande énormément d&rsquo;efforts pour être correct. Il faut gérer manuellement l&rsquo;ouverture, la fermeture, le clic à l&rsquo;extérieur, et surtout, l&rsquo;accessibilité.</p>
+<p>En adoptant <code>&lt;dialog&gt;</code>, je bénéficie de trois avantages immédiats qui simplifient mon code et améliorent ma sémantique :</p>
+<ol>
+<li><strong>Zéro dépendance :</strong> Plus besoin d&rsquo;alourdir mon projet avec une librairie tierce juste pour afficher un message.</li>
+<li><strong>Une API simple :</strong> L&rsquo;élément se contrôle très simplement en JavaScript natif avec <code>showModal()</code> pour l&rsquo;ouvrir et <code>close()</code> pour le fermer. Fini les usines à gaz.</li>
+<li><strong>Le &ldquo;Top Layer&rdquo; :</strong> Le navigateur gère lui-même l&rsquo;affichage au-dessus de tout le reste, sans que j&rsquo;aie à me battre avec des <code>z-index</code>.</li>
+</ol>
+<h2 id="laccessibilité">L&rsquo;Accessibilité<a href="#laccessibilité" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>C&rsquo;est sur ce point que l&rsquo;article m&rsquo;a le plus convaincu. Auparavant, rendre une modale accessible était un calvaire. Avec <code>&lt;dialog&gt;</code>, le navigateur fait le gros du travail pour moi, conformément aux normes WCAG :</p>
+<ul>
+<li><strong>Gestion du Focus :</strong> Quand la modale s&rsquo;ouvre, la navigation au clavier (Tab) reste &ldquo;piégée&rdquo; à l&rsquo;intérieur. Je n&rsquo;ai plus besoin d&rsquo;écrire de scripts complexes pour empêcher l&rsquo;utilisateur de sélectionner des éléments en arrière-plan.</li>
+<li><strong>La touche Échap (Esc) :</strong> C&rsquo;est un détail qui compte. Nativement, la touche Échap ferme la modale. C&rsquo;est un comportement attendu par les utilisateurs que je devais coder à la main avant.</li>
+<li><strong>Lecteurs d&rsquo;écran :</strong> La sémantique est implicite. Les outils d&rsquo;assistance savent qu&rsquo;il s&rsquo;agit d&rsquo;une boîte de dialogue sans que je doive surcharger mon HTML d&rsquo;attributs <code>aria-</code>.</li>
+</ul>
+<h2 id="design-et-personnalisation">Design et Personnalisation<a href="#design-et-personnalisation" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>J&rsquo;avais peur que le design natif soit trop rigide, mais l&rsquo;article montre qu&rsquo;il est très facile à styliser. L&rsquo;élément <code>&lt;dialog&gt;</code> accepte le CSS comme n&rsquo;importe quel bloc.</p>
+<p>Mieux encore, le pseudo-élément <code>::backdrop</code> permet de cibler spécifiquement l&rsquo;arrière-plan (le voile sombre derrière la modale). Je peux donc créer des effets de flou ou d&rsquo;assombrissement en quelques lignes de CSS :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">dialog</span>::<span style="color:#a6e22e">backdrop</span> {
+</span></span><span style="display:flex;"><span>  backdrop-filter: blur(<span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: rgba(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0.5</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Source de l&rsquo;article: <a href="https://laconsole.dev/blog/popup-native-html-dialog">https://laconsole.dev/blog/popup-native-html-dialog</a></strong></p>
+
+      </div></div>
 
   
     
@@ -167,14 +198,14 @@
         <span class="button previous">
             <a href="http://localhost:1313/posts/article3/">
                 <span class="button__icon">←</span>
-                <span class="button__text">Article3</span>
+                <span class="button__text">Visualisation Audio avec JS et GSAP</span>
             </a>
         </span>
         
         
         <span class="button next">
             <a href="http://localhost:1313/posts/article1/">
-                <span class="button__text">Article1</span>
+                <span class="button__text">Quasar Framework : Au-delà du simple composant UI</span>
                 <span class="button__icon">→</span>
             </a>
         </span>
