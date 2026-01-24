@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Methodologie on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/methodologie/</link>
+    <description>Recent content in Methodologie on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jan 2026 15:29:32 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/methodologie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utilisateion des LLM pour me former</title>
+      <link>http://localhost:1313/posts/llm/</link>
+      <pubDate>Sat, 24 Jan 2026 15:29:32 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/llm/</guid>
+      <description>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+&lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+&lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Je ne demande pas &amp;ldquo;Donne-moi le code&amp;rdquo;, mais plutôt :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Explique-moi ce bloc ligne par ligne. Pourquoi cette approche a-t-elle été choisie ici ? Il y a-t-il un impact sur la performance ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;L&amp;rsquo;IA agit comme un développeur senior qui m&amp;rsquo;explique les subtilités que je n&amp;rsquo;aurais pas vues seul.&lt;/p&gt;
+&lt;h2 id=&#34;2-le-code-review-virtuel--pour-saméliorer&#34;&gt;2. Le &amp;ldquo;Code Review&amp;rdquo; virtuel : Pour s&amp;rsquo;améliorer&lt;/h2&gt;
+&lt;p&gt;Pour ne pas stagner, il faut confronter son code à la critique. Je soumets régulièrement mes propres fonctions à l&amp;rsquo;IA avec ce type de consigne :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Voici mon code. Il fonctionne, mais comment le rendre plus lisible, plus robuste ou plus accessible ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cela me permet de découvrir des &lt;strong&gt;bonnes pratiques&lt;/strong&gt; (Clean Code) ou des fonctionnalités modernes du langage que j&amp;rsquo;ignorais. Je reste le décideur final : j&amp;rsquo;accepte ou je refuse la suggestion.&lt;/p&gt;
+&lt;h2 id=&#34;3-le-duo-documentation--ia--pour-ne-pas-désapprendre&#34;&gt;3. Le duo Documentation + IA : Pour ne pas désapprendre&lt;/h2&gt;
+&lt;p&gt;C&amp;rsquo;est le point crucial pour ne pas perdre en compétence : &lt;strong&gt;l&amp;rsquo;IA ne remplace pas la documentation, elle l&amp;rsquo;éclaire.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;applique la méthode du &amp;ldquo;Ping-Pong&amp;rdquo; :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Si l&amp;rsquo;IA me donne une solution, je vais vérifier la syntaxe ou la logique. C&amp;rsquo;est surtout important quand je ne comprend pas le fonctionnement.&lt;/li&gt;
+&lt;li&gt;Inversement, si une documentation est trop abstraite, je demande à l&amp;rsquo;IA de me générer un exemple concret pour illustrer le concept.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cette friction volontaire entre la source officielle et l&amp;rsquo;explication synthétique ancre durablement les connaissances dans ma mémoire.&lt;/p&gt;
+&lt;h2 id=&#34;4-gagner-du-temps&#34;&gt;4. Gagner du temps&lt;/h2&gt;
+&lt;p&gt;Je leur délègue les tâches répétitives ou pour gérer des cas auquel je ne pense pas forcement directement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Écrire le code répétitif (Boilerplate).&lt;/li&gt;
+&lt;li&gt;Générer des jeux de données de test.&lt;/li&gt;
+&lt;li&gt;Rédiger des tests unitaires.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Je libère du temps pour me concentrer sur ce qui compte vraiment : l&amp;rsquo;architecture du site, l&amp;rsquo;expérience utilisateur et la qualité finale du projet.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

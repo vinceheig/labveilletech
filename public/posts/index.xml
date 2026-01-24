@@ -8,13 +8,47 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Jan 2026 15:29:32 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LLM</title>
+      <title>Utilisateion des LLM pour me former</title>
       <link>http://localhost:1313/posts/llm/</link>
       <pubDate>Sat, 24 Jan 2026 15:29:32 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/llm/</guid>
-      <description></description>
-      <content></content>
+      <description>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+&lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+&lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Je ne demande pas &amp;ldquo;Donne-moi le code&amp;rdquo;, mais plutôt :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Explique-moi ce bloc ligne par ligne. Pourquoi cette approche a-t-elle été choisie ici ? Il y a-t-il un impact sur la performance ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;L&amp;rsquo;IA agit comme un développeur senior qui m&amp;rsquo;explique les subtilités que je n&amp;rsquo;aurais pas vues seul.&lt;/p&gt;
+&lt;h2 id=&#34;2-le-code-review-virtuel--pour-saméliorer&#34;&gt;2. Le &amp;ldquo;Code Review&amp;rdquo; virtuel : Pour s&amp;rsquo;améliorer&lt;/h2&gt;
+&lt;p&gt;Pour ne pas stagner, il faut confronter son code à la critique. Je soumets régulièrement mes propres fonctions à l&amp;rsquo;IA avec ce type de consigne :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Voici mon code. Il fonctionne, mais comment le rendre plus lisible, plus robuste ou plus accessible ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cela me permet de découvrir des &lt;strong&gt;bonnes pratiques&lt;/strong&gt; (Clean Code) ou des fonctionnalités modernes du langage que j&amp;rsquo;ignorais. Je reste le décideur final : j&amp;rsquo;accepte ou je refuse la suggestion.&lt;/p&gt;
+&lt;h2 id=&#34;3-le-duo-documentation--ia--pour-ne-pas-désapprendre&#34;&gt;3. Le duo Documentation + IA : Pour ne pas désapprendre&lt;/h2&gt;
+&lt;p&gt;C&amp;rsquo;est le point crucial pour ne pas perdre en compétence : &lt;strong&gt;l&amp;rsquo;IA ne remplace pas la documentation, elle l&amp;rsquo;éclaire.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;J&amp;rsquo;applique la méthode du &amp;ldquo;Ping-Pong&amp;rdquo; :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Si l&amp;rsquo;IA me donne une solution, je vais vérifier la syntaxe ou la logique. C&amp;rsquo;est surtout important quand je ne comprend pas le fonctionnement.&lt;/li&gt;
+&lt;li&gt;Inversement, si une documentation est trop abstraite, je demande à l&amp;rsquo;IA de me générer un exemple concret pour illustrer le concept.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cette friction volontaire entre la source officielle et l&amp;rsquo;explication synthétique ancre durablement les connaissances dans ma mémoire.&lt;/p&gt;
+&lt;h2 id=&#34;4-gagner-du-temps&#34;&gt;4. Gagner du temps&lt;/h2&gt;
+&lt;p&gt;Je leur délègue les tâches répétitives ou pour gérer des cas auquel je ne pense pas forcement directement.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Écrire le code répétitif (Boilerplate).&lt;/li&gt;
+&lt;li&gt;Générer des jeux de données de test.&lt;/li&gt;
+&lt;li&gt;Rédiger des tests unitaires.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Je libère du temps pour me concentrer sur ce qui compte vraiment : l&amp;rsquo;architecture du site, l&amp;rsquo;expérience utilisateur et la qualité finale du projet.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -23,18 +57,54 @@
       <pubDate>Sat, 24 Jan 2026 15:29:24 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/sytemeecoute/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Article</title>
-      <link>http://localhost:1313/posts/article/</link>
-      <pubDate>Thu, 15 Jan 2026 11:07:27 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/article/</guid>
-      <description></description>
-      <content></content>
+      <description>&lt;p&gt;Pour réaliser une veille efficace sans me laisser submerger les contenus publié en masse, j&amp;rsquo;ai mis en place un système d&amp;rsquo;écoute où l&amp;rsquo;objectif est de séparer clairement ma vie personnelle de ma veille technologique.
+Voici comment j&amp;rsquo;ai architecturé mon flux d&amp;rsquo;information.&lt;/p&gt;
+&lt;h2 id=&#34;1-profil-chrome-dédié&#34;&gt;1. Profil Chrome dédié&lt;/h2&gt;
+&lt;p&gt;Pour cloisoner mon système, j&amp;rsquo;ai créé une adresse Gmail spécifique et un profil Google Chrome dédié.&lt;/p&gt;
+&lt;p&gt;Cette séparation offre deux avantages :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Moins de distraction :&lt;/strong&gt; Lorsque j&amp;rsquo;ouvre ce profil, je n&amp;rsquo;ai accès ni à mes emails personnels, ni aux suggestions YouTube de divertissement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithmes propres :&lt;/strong&gt; En créant de nouveaux comptes sur les réseaux sociaux avec cet email, je m&amp;rsquo;assure que les algorithmes de recommandation ne me proposent que du contenu lié au développement web, à la musique et à l&amp;rsquo;éco-conception, sans être pollués par mes navigations passées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-inoreader-rss&#34;&gt;2. Inoreader (RSS)&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;utilise &lt;strong&gt;Inoreader&lt;/strong&gt; comme agrégateur de flux RSS central. C&amp;rsquo;est ici que je centralise les articles.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Pour réaliser une veille efficace sans me laisser submerger les contenus publié en masse, j&amp;rsquo;ai mis en place un système d&amp;rsquo;écoute où l&amp;rsquo;objectif est de séparer clairement ma vie personnelle de ma veille technologique.
+Voici comment j&amp;rsquo;ai architecturé mon flux d&amp;rsquo;information.&lt;/p&gt;
+&lt;h2 id=&#34;1-profil-chrome-dédié&#34;&gt;1. Profil Chrome dédié&lt;/h2&gt;
+&lt;p&gt;Pour cloisoner mon système, j&amp;rsquo;ai créé une adresse Gmail spécifique et un profil Google Chrome dédié.&lt;/p&gt;
+&lt;p&gt;Cette séparation offre deux avantages :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Moins de distraction :&lt;/strong&gt; Lorsque j&amp;rsquo;ouvre ce profil, je n&amp;rsquo;ai accès ni à mes emails personnels, ni aux suggestions YouTube de divertissement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithmes propres :&lt;/strong&gt; En créant de nouveaux comptes sur les réseaux sociaux avec cet email, je m&amp;rsquo;assure que les algorithmes de recommandation ne me proposent que du contenu lié au développement web, à la musique et à l&amp;rsquo;éco-conception, sans être pollués par mes navigations passées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-inoreader-rss&#34;&gt;2. Inoreader (RSS)&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;utilise &lt;strong&gt;Inoreader&lt;/strong&gt; comme agrégateur de flux RSS central. C&amp;rsquo;est ici que je centralise les articles.&lt;/p&gt;
+&lt;p&gt;Mes sources principales incluent :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Smashing Magazine&lt;/strong&gt; pour la qualité éditoriale sur le design et le front-end, et &lt;em&gt;Medium&lt;/em&gt; pour les retours d&amp;rsquo;expérience développeurs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La scène francophone :&lt;/strong&gt; &lt;em&gt;La Console&lt;/em&gt;, qui offre une excellente pédagogie sur les concepts fondamentaux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&amp;rsquo;inspiration Agence :&lt;/strong&gt; Je suis les publications d&amp;rsquo;agences créatives comme &lt;em&gt;Yield&lt;/em&gt; pour rester connecté aux tendances du marché. Ils proposent un blog avec des ressources interéssantes et accessibles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Actuellement en version gratuite, j&amp;rsquo;utilise les dossiers d&amp;rsquo;Inoreader pour classer les articles à lire. Bien que certaines automatisations soient réservées à la version Pro.&lt;/p&gt;
+&lt;h2 id=&#34;3-les-canaux-sociaux-et-la-découverte&#34;&gt;3. Les Canaux Sociaux et la Découverte&lt;/h2&gt;
+&lt;p&gt;Pour capter les discussions communautaires et des idées, j&amp;rsquo;ai créer des comptes sur &lt;strong&gt;X (Twitter)&lt;/strong&gt;, &lt;strong&gt;Bluesky&lt;/strong&gt;, &lt;strong&gt;Reddit&lt;/strong&gt; et &lt;strong&gt;Pinterest&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sur ces plateformes, je ne suis que des profils techniques ciblés (experts front-end, compositeurs utilisant le web, spécialistes de l&amp;rsquo;accessibilité et certains créateur de contenu plus ludique mais intéressant).&lt;/p&gt;
+&lt;h2 id=&#34;4-les-newsletters-information-curée&#34;&gt;4. Les Newsletters (Information Curée)&lt;/h2&gt;
+&lt;p&gt;Pour compléter le flux RSS, je suis abonné à une sélection drastique de newsletters qui arrivent sur ma boîte mail dédiée :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Techpresso :&lt;/strong&gt; Pour une vision macro de l&amp;rsquo;actualité tech.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Weekly :&lt;/strong&gt; Indispensable pour suivre les nouvelles spécifications du W3C et les astuces d&amp;rsquo;intégration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SitePoint :&lt;/strong&gt; Pour des tutoriels pratiques et leur couverture récente des outils d&amp;rsquo;IA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Console :&lt;/strong&gt; Pour son format &amp;ldquo;2 minutes pour comprendre&amp;rdquo; très didactique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-stockage-et-capitalisation&#34;&gt;5. Stockage et Capitalisation&lt;/h2&gt;
+&lt;p&gt;Mon système de stockage reste simple pour l&amp;rsquo;instant :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Favoris Chrome :&lt;/strong&gt; Pour les outils et documentations que j&amp;rsquo;utilise fréquemment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inoreader &amp;ldquo;Saved Web Pages&amp;rdquo; :&lt;/strong&gt; Pour les articles de fond que je dois lire ou annoter plus tard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ce système est voué à évoluer. La version gratuite d&amp;rsquo;Inoreader limite l&amp;rsquo;intégration directe des newsletters dans le flux RSS, mais cette configuration est suffisante pour filtrer les articles.&lt;/p&gt;
+</content>
     </item>
     
   </channel>
