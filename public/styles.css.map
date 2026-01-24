@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/vincentrurangirwa/Documents/HEIG-VD/DEV/labveilletech/labveilletech",
+	"sourceRoot": "/Users/vincentrurangirwa/Documents/HEIG-VD/DEV/labveilletech",
 	"sources": [
 		"css/base.scss",
 		"themes/re-Terminal/assets/css/variables.scss",

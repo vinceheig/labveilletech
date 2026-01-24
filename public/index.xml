@@ -23,8 +23,57 @@
       <pubDate>Mon, 15 Jan 2024 11:00:00 +0100</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description></description>
-      <content></content>
+      <description>&lt;h3 id=&#34;le-métier-de-développeur-front-end&#34;&gt;Le métier de développeur Front-end&lt;/h3&gt;
+&lt;p&gt;Le métier de &lt;strong&gt;développeur Front-end&lt;/strong&gt; se situe à l&amp;rsquo;intersection de la programmation informatique et de l&amp;rsquo;ergonomie visuelle. Sa mission consiste à traduire les intentions de design et les concepts d&amp;rsquo;&lt;strong&gt;expérience utilisateur (UX)&lt;/strong&gt; en une interface technique interactive, performante et accessible.&lt;/p&gt;
+&lt;p&gt;Au-delà de la simple maîtrise des langages fondamentaux (&lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, &lt;strong&gt;frameworks&lt;/strong&gt;), le développeur Front-end moderne doit :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Garantir l&amp;rsquo;interopérabilité sur divers supports (Responsive Design).&lt;/li&gt;
+&lt;li&gt;Optimiser le temps de chargement des ressources.&lt;/li&gt;
+&lt;li&gt;Assurer l&amp;rsquo;intégrité de l&amp;rsquo;interface lors des interactions avec les APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans mon approche, ce rôle prend une dimension éthique : il s&amp;rsquo;agit de concevoir un &lt;strong&gt;code propre et durable&lt;/strong&gt; qui respecte l&amp;rsquo;utilisateur tout en sublimant le contenu créatif.&lt;/p&gt;</description>
+      <content>&lt;h3 id=&#34;le-métier-de-développeur-front-end&#34;&gt;Le métier de développeur Front-end&lt;/h3&gt;
+&lt;p&gt;Le métier de &lt;strong&gt;développeur Front-end&lt;/strong&gt; se situe à l&amp;rsquo;intersection de la programmation informatique et de l&amp;rsquo;ergonomie visuelle. Sa mission consiste à traduire les intentions de design et les concepts d&amp;rsquo;&lt;strong&gt;expérience utilisateur (UX)&lt;/strong&gt; en une interface technique interactive, performante et accessible.&lt;/p&gt;
+&lt;p&gt;Au-delà de la simple maîtrise des langages fondamentaux (&lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, &lt;strong&gt;frameworks&lt;/strong&gt;), le développeur Front-end moderne doit :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Garantir l&amp;rsquo;interopérabilité sur divers supports (Responsive Design).&lt;/li&gt;
+&lt;li&gt;Optimiser le temps de chargement des ressources.&lt;/li&gt;
+&lt;li&gt;Assurer l&amp;rsquo;intégrité de l&amp;rsquo;interface lors des interactions avec les APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dans mon approche, ce rôle prend une dimension éthique : il s&amp;rsquo;agit de concevoir un &lt;strong&gt;code propre et durable&lt;/strong&gt; qui respecte l&amp;rsquo;utilisateur tout en sublimant le contenu créatif.&lt;/p&gt;
+&lt;h2 id=&#34;mon-ikigai&#34;&gt;Mon Ikigai&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/Ikigai.png&#34; alt=&#34;Description de l&amp;rsquo;image&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ce que j&amp;rsquo;aime (Passion) :&lt;/strong&gt; Le développement web (front-end), la composition musicale et comprendre l&amp;rsquo;expérience utilisateur (UX).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ce pour quoi je suis doué (Talent) :&lt;/strong&gt; Coder des interfaces et créer de la musique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ce dont le monde a besoin (Mission) :&lt;/strong&gt; Des services numériques plus humains, éco-responsables, et des outils qui aident vraiment les créatifs sans les remplacer par l&amp;rsquo;IA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ce pour quoi je peux être payé (Profession) :&lt;/strong&gt; Le développement et le design de sites web. La production de musique également.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mon but en tant que développeur front-end, tel qu&amp;rsquo;illustré par mon Ikigai, est de &lt;strong&gt;&amp;ldquo;Designer et coder des sites et applications qui aident les gens dans la musique et les métiers créatifs&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;organisation-du-contenu-taxonomies&#34;&gt;Organisation du contenu (Taxonomies)&lt;/h2&gt;
+&lt;p&gt;Pour structurer ma veille, j&amp;rsquo;ai organisé les articles selon deux axes principaux :&lt;/p&gt;
+&lt;h3 id=&#34;les-catégories&#34;&gt;Les Catégories&lt;/h3&gt;
+&lt;p&gt;Elles définissent le type de contenu que vous trouverez ici :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Veille Techno :&lt;/strong&gt; Découverte de nouveaux frameworks, librairies, archtecture de codes, outils, etc&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Réflexion :&lt;/strong&gt; Articles de fond sur l&amp;rsquo;éthique du web,l&amp;rsquo;impact sur la musique et l&amp;rsquo;UI/UX.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;les-tags-étiquettes&#34;&gt;Les Tags (Étiquettes)&lt;/h3&gt;
+&lt;p&gt;Ils permettent de filtrer les sujets précis abordés :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;#DevFront&lt;/code&gt; : Pour la partie technique (HTML,CSS, JS, Vue, React, Node,&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#WebDesign&lt;/code&gt; &amp;amp; &lt;code&gt;#UX&lt;/code&gt; : Pour tout ce qui touche à l&amp;rsquo;interface et l&amp;rsquo;expérience.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#Musique&lt;/code&gt; : Spécifique aux outils pour musiciens.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#Eco&lt;/code&gt; : Pour les sujets liés à un web plus léger et responsable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;choix-techniques--pourquoi-un-ssg-&#34;&gt;Choix Techniques : Pourquoi un SSG ?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Générateur de Site Statique (SSG) - Hugo :&lt;/strong&gt; J&amp;rsquo;ai choisi Hugo comme conseillé en classe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom du theme :&lt;/strong&gt; &amp;ldquo;re-Terminal&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hébergement &amp;amp; Déploiement :&lt;/strong&gt; Le code source est hébergé sur &lt;strong&gt;GitHub&lt;/strong&gt;. Grâce aux &lt;strong&gt;GitHub Actions&lt;/strong&gt;, le site est automatiquement régénéré et déployé sur &lt;strong&gt;GitHub Pages&lt;/strong&gt; à chaque modification.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+</content>
     </item>
     
   </channel>
