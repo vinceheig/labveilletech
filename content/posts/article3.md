@@ -40,3 +40,5 @@ Cet article m'a donné la roadmap technique pour mon futur site musical :
 3.  **Animer** : Utiliser GSAP pour faire bouger ces formes en fonction du volume et de la fréquence.
 
 C'est un élément qui me permettra de passer d'un simple "lecteur audio" à une **expérience interactive** pour les visiteurs de mon site. Il faudra tout de même que je me penche de plus près sur GSAP pour l'implémenter de manière correcte et connaître ses possiblilités et limitations.
+
+**Source de l'article: https://www.smashingmagazine.com/2022/03/audio-visualization-javascript-gsap-part1/**
