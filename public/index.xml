@@ -6,33 +6,84 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jan 2026 15:29:32 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 16:26:51 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Article3</title>
+      <link>http://localhost:1313/posts/article3/</link>
+      <pubDate>Sat, 24 Jan 2026 16:26:51 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/article3/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Article2</title>
+      <link>http://localhost:1313/posts/article2/</link>
+      <pubDate>Sat, 24 Jan 2026 16:26:48 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/article2/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Quasar Framework : Au-delà du simple composant UI</title>
+      <link>http://localhost:1313/posts/article1/</link>
+      <pubDate>Sat, 24 Jan 2026 16:26:45 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/article1/</guid>
+      <description>&lt;p&gt;Dans mon parcours de développeur Front-end, il m&amp;rsquo;est déjà arrivé d&amp;rsquo;utiliser &lt;strong&gt;Quasar&lt;/strong&gt;. Cependant, je l&amp;rsquo;avais limité à un usage restreint : l&amp;rsquo;intégration rapide d&amp;rsquo;un composant de &amp;ldquo;pop-up&amp;rdquo; dans un projet existant, sans chercher à comprendre ce qui se passait dans le framemwork dans son intégralité&lt;/p&gt;
+&lt;p&gt;Cet article de &lt;em&gt;Smashing Magazine&lt;/em&gt; m&amp;rsquo;a permis de comprendre que Quasar n&amp;rsquo;est pas juste une librairie de composants, mais un écosystème complet pour structurer des projets d&amp;rsquo;envergure.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Dans mon parcours de développeur Front-end, il m&amp;rsquo;est déjà arrivé d&amp;rsquo;utiliser &lt;strong&gt;Quasar&lt;/strong&gt;. Cependant, je l&amp;rsquo;avais limité à un usage restreint : l&amp;rsquo;intégration rapide d&amp;rsquo;un composant de &amp;ldquo;pop-up&amp;rdquo; dans un projet existant, sans chercher à comprendre ce qui se passait dans le framemwork dans son intégralité&lt;/p&gt;
+&lt;p&gt;Cet article de &lt;em&gt;Smashing Magazine&lt;/em&gt; m&amp;rsquo;a permis de comprendre que Quasar n&amp;rsquo;est pas juste une librairie de composants, mais un écosystème complet pour structurer des projets d&amp;rsquo;envergure.&lt;/p&gt;
+&lt;h2 id=&#34;une-promesse-duniversalité&#34;&gt;Une promesse d&amp;rsquo;universalité&lt;/h2&gt;
+&lt;p&gt;[cite_start]Ce qui m&amp;rsquo;a frappé à la lecture, c&amp;rsquo;est la promesse centrale du framework : &lt;em&gt;&amp;ldquo;Write code once, deploy everywhere&amp;rdquo;&lt;/em&gt;[cite: 1].
+Quasar est un framework open-source basé sur Vue.js qui permet, avec une seule base de code, de déployer simultanément :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[cite_start]Un site web (SPA ou PWA)[cite: 1].&lt;/li&gt;
+&lt;li&gt;[cite_start]Une application mobile (iOS et Android) via Cordova ou Capacitor[cite: 1].&lt;/li&gt;
+&lt;li&gt;[cite_start]Une application de bureau (Mac, Windows, Linux) via Electron[cite: 1].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour mon domaine de veille, qui cherche à créer des &amp;ldquo;services utiles&amp;rdquo; pour les créatifs, cette capacité à toucher tous les supports sans multiplier le code est un atout majeur en termes de maintenance et d&amp;rsquo;efficacité.&lt;/p&gt;
+&lt;h2 id=&#34;limportance-de-larchitecture-cli&#34;&gt;L&amp;rsquo;importance de l&amp;rsquo;architecture (CLI)&lt;/h2&gt;
+&lt;p&gt;Jusqu&amp;rsquo;ici, je bricolais. [cite_start]L&amp;rsquo;article insiste sur l&amp;rsquo;importance de démarrer avec la &lt;strong&gt;Quasar CLI&lt;/strong&gt; (&lt;code&gt;quasar create &amp;lt;nom_dossier&amp;gt;&lt;/code&gt;)[cite: 1].
+[cite_start]J&amp;rsquo;ai découvert que la force de Quasar réside dans son fichier &lt;code&gt;quasar.conf.js&lt;/code&gt;[cite: 1]. [cite_start]C&amp;rsquo;est le véritable cerveau du projet qui gère toute la complexité : les icônes, les animations CSS, et les configurations de build pour Electron ou le mobile[cite: 1]. [cite_start]Cela évite d&amp;rsquo;avoir à configurer manuellement Webpack ou d&amp;rsquo;installer des dizaines de librairies tierces comme Bootstrap ou Moment.js, car Quasar fournit déjà une suite d&amp;rsquo;outils UI performants et complets[cite: 1].&lt;/p&gt;
+&lt;h2 id=&#34;un-cas-pratique--lintégration-firebase&#34;&gt;Un cas pratique : L&amp;rsquo;intégration Firebase&lt;/h2&gt;
+&lt;p&gt;[cite_start]Pour illustrer ces concepts, l&amp;rsquo;article détaille la création d&amp;rsquo;une &lt;strong&gt;application de prise de notes (&amp;ldquo;Notes App&amp;rdquo;)&lt;/strong&gt;[cite: 1].
+[cite_start]Ce qui est intéressant pour mes futurs projets, c&amp;rsquo;est que l&amp;rsquo;auteur ne se contente pas du front-end : il connecte l&amp;rsquo;application à &lt;strong&gt;Firebase&lt;/strong&gt; pour stocker et récupérer les données[cite: 1]. [cite_start]Cela démontre que Quasar s&amp;rsquo;intègre parfaitement dans une stack moderne, capable de gérer des données en temps réel tout en conservant une interface fluide basée sur les guidelines Material Design[cite: 1].&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Cet article m&amp;rsquo;a permis de changer de perspective. Je ne vois plus Quasar comme une simple trousse à outils pour dépanner un design, mais comme une fondation solide pour mon prochain projet. Il existe d&amp;rsquo;autres framework mais c&amp;rsquo;est un premier pas pour comprendre mieux leur fonctionnement et faire un choix pertinient selon le besoin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source de l&amp;rsquo;article: &lt;a href=&#34;https://www.smashingmagazine.com/2021/10/introduction-quasar-framework-cross-platform-applications/&#34;&gt;https://www.smashingmagazine.com/2021/10/introduction-quasar-framework-cross-platform-applications/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Utilisateion des LLM pour me former</title>
       <link>http://localhost:1313/posts/llm/</link>
       <pubDate>Sat, 24 Jan 2026 15:29:32 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/llm/</guid>
-      <description>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+      <description>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, j&amp;rsquo;éssaie au maximum de les utiliser comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
 &lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
-&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur&#34;&gt;1. Comprendre en profondeur&lt;/h2&gt;
 &lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, je les utilise surtout comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
+      <content>&lt;p&gt;Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme des outils qui codent à notre place. Pour ma part, j&amp;rsquo;éssaie au maximum de les utiliser comme une aide pour comprendre ce que je fais et progresser dans mon domaine&lt;/p&gt;
 &lt;p&gt;Voici comment je m&amp;rsquo;en sers concrètement au quotidien.&lt;/p&gt;
-&lt;h2 id=&#34;1-comprendre-en-profondeur-le-rôle-du-tuteur&#34;&gt;1. Comprendre en profondeur (Le rôle du Tuteur)&lt;/h2&gt;
+&lt;h2 id=&#34;1-comprendre-en-profondeur&#34;&gt;1. Comprendre en profondeur&lt;/h2&gt;
 &lt;p&gt;Il m&amp;rsquo;arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j&amp;rsquo;utilise l&amp;rsquo;IA pour &lt;strong&gt;comprendre la logique&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Je ne demande pas &amp;ldquo;Donne-moi le code&amp;rdquo;, mais plutôt :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Explique-moi ce bloc ligne par ligne. Pourquoi cette approche a-t-elle été choisie ici ? Il y a-t-il un impact sur la performance ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;L&amp;rsquo;IA agit comme un développeur senior qui m&amp;rsquo;explique les subtilités que je n&amp;rsquo;aurais pas vues seul.&lt;/p&gt;
-&lt;h2 id=&#34;2-le-code-review-virtuel--pour-saméliorer&#34;&gt;2. Le &amp;ldquo;Code Review&amp;rdquo; virtuel : Pour s&amp;rsquo;améliorer&lt;/h2&gt;
+&lt;h2 id=&#34;2-le-code-review-virtuel&#34;&gt;2. Le &amp;ldquo;Code Review&amp;rdquo; virtuel&lt;/h2&gt;
 &lt;p&gt;Pour ne pas stagner, il faut confronter son code à la critique. Je soumets régulièrement mes propres fonctions à l&amp;rsquo;IA avec ce type de consigne :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Voici mon code. Il fonctionne, mais comment le rendre plus lisible, plus robuste ou plus accessible ?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Cela me permet de découvrir des &lt;strong&gt;bonnes pratiques&lt;/strong&gt; (Clean Code) ou des fonctionnalités modernes du langage que j&amp;rsquo;ignorais. Je reste le décideur final : j&amp;rsquo;accepte ou je refuse la suggestion.&lt;/p&gt;
-&lt;h2 id=&#34;3-le-duo-documentation--ia--pour-ne-pas-désapprendre&#34;&gt;3. Le duo Documentation + IA : Pour ne pas désapprendre&lt;/h2&gt;
+&lt;h2 id=&#34;3-le-duo-documentation--ia&#34;&gt;3. Le duo Documentation + IA&lt;/h2&gt;
 &lt;p&gt;C&amp;rsquo;est le point crucial pour ne pas perdre en compétence : &lt;strong&gt;l&amp;rsquo;IA ne remplace pas la documentation, elle l&amp;rsquo;éclaire.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;J&amp;rsquo;applique la méthode du &amp;ldquo;Ping-Pong&amp;rdquo; :&lt;/p&gt;
 &lt;ol&gt;

@@ -19,7 +19,7 @@ Les Intelligences Artificielles comme ChatGPT ou Claude sont souvent vues comme 
 
 Voici comment je m'en sers concrètement au quotidien.
 
-## 1. Comprendre en profondeur (Le rôle du Tuteur)
+## 1. Comprendre en profondeur
 
 Il m'arrive souvent de tomber sur un morceau de code fonctionnel mais obscur (une Regex complexe ou une méthode Array JavaScript peu commune). Au lieu de copier-coller aveuglément, j'utilise l'IA pour **comprendre la logique**.
 
@@ -28,14 +28,14 @@ Je ne demande pas "Donne-moi le code", mais plutôt :
 
 L'IA agit comme un développeur senior qui m'explique les subtilités que je n'aurais pas vues seul.
 
-## 2. Le "Code Review" virtuel : Pour s'améliorer
+## 2. Le "Code Review" virtuel
 
 Pour ne pas stagner, il faut confronter son code à la critique. Je soumets régulièrement mes propres fonctions à l'IA avec ce type de consigne :
 > *"Voici mon code. Il fonctionne, mais comment le rendre plus lisible, plus robuste ou plus accessible ?"*
 
 Cela me permet de découvrir des **bonnes pratiques** (Clean Code) ou des fonctionnalités modernes du langage que j'ignorais. Je reste le décideur final : j'accepte ou je refuse la suggestion.
 
-## 3. Le duo Documentation + IA : Pour ne pas désapprendre
+## 3. Le duo Documentation + IA
 
 C'est le point crucial pour ne pas perdre en compétence : **l'IA ne remplace pas la documentation, elle l'éclaire.**
 

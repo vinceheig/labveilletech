@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Quasar Framework : Au-delà du simple composant UI :: My New Hugo Site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dans mon parcours de développeur Front-end, il m&rsquo;est déjà arrivé d&rsquo;utiliser Quasar. Cependant, je l&rsquo;avais limité à un usage restreint : l&rsquo;intégration rapide d&rsquo;un composant de &ldquo;pop-up&rdquo; dans un projet existant, sans chercher à comprendre ce qui se passait dans le framemwork dans son intégralité
+Cet article de Smashing Magazine m&rsquo;a permis de comprendre que Quasar n&rsquo;est pas juste une librairie de composants, mais un écosystème complet pour structurer des projets d&rsquo;envergure.
+" />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/article1/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/theme-colors/green.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/img/theme-colors/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Quasar Framework : Au-delà du simple composant UI">
+<meta property="og:description" content="Dans mon parcours de développeur Front-end, il m&rsquo;est déjà arrivé d&rsquo;utiliser Quasar. Cependant, je l&rsquo;avais limité à un usage restreint : l&rsquo;intégration rapide d&rsquo;un composant de &ldquo;pop-up&rdquo; dans un projet existant, sans chercher à comprendre ce qui se passait dans le framemwork dans son intégralité
+Cet article de Smashing Magazine m&rsquo;a permis de comprendre que Quasar n&rsquo;est pas juste une librairie de composants, mais un écosystème complet pour structurer des projets d&rsquo;envergure.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/article1/" />
+<meta property="og:site_name" content="My New Hugo Site" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-01-24 16:26:45 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="green">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    re-Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="about/">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="about/" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/article1/">Quasar Framework : Au-delà du simple composant UI</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-01-24</time>
+    
+</div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/devfront/">DevFront</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/webdesign/">WebDesign</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Dans mon parcours de développeur Front-end, il m&rsquo;est déjà arrivé d&rsquo;utiliser <strong>Quasar</strong>. Cependant, je l&rsquo;avais limité à un usage restreint : l&rsquo;intégration rapide d&rsquo;un composant de &ldquo;pop-up&rdquo; dans un projet existant, sans chercher à comprendre ce qui se passait dans le framemwork dans son intégralité</p>
+<p>Cet article de <em>Smashing Magazine</em> m&rsquo;a permis de comprendre que Quasar n&rsquo;est pas juste une librairie de composants, mais un écosystème complet pour structurer des projets d&rsquo;envergure.</p>
+<h2 id="une-promesse-duniversalité">Une promesse d&rsquo;universalité<a href="#une-promesse-duniversalité" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>[cite_start]Ce qui m&rsquo;a frappé à la lecture, c&rsquo;est la promesse centrale du framework : <em>&ldquo;Write code once, deploy everywhere&rdquo;</em>[cite: 1].
+Quasar est un framework open-source basé sur Vue.js qui permet, avec une seule base de code, de déployer simultanément :</p>
+<ul>
+<li>[cite_start]Un site web (SPA ou PWA)[cite: 1].</li>
+<li>[cite_start]Une application mobile (iOS et Android) via Cordova ou Capacitor[cite: 1].</li>
+<li>[cite_start]Une application de bureau (Mac, Windows, Linux) via Electron[cite: 1].</li>
+</ul>
+<p>Pour mon domaine de veille, qui cherche à créer des &ldquo;services utiles&rdquo; pour les créatifs, cette capacité à toucher tous les supports sans multiplier le code est un atout majeur en termes de maintenance et d&rsquo;efficacité.</p>
+<h2 id="limportance-de-larchitecture-cli">L&rsquo;importance de l&rsquo;architecture (CLI)<a href="#limportance-de-larchitecture-cli" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Jusqu&rsquo;ici, je bricolais. [cite_start]L&rsquo;article insiste sur l&rsquo;importance de démarrer avec la <strong>Quasar CLI</strong> (<code>quasar create &lt;nom_dossier&gt;</code>)[cite: 1].
+[cite_start]J&rsquo;ai découvert que la force de Quasar réside dans son fichier <code>quasar.conf.js</code>[cite: 1]. [cite_start]C&rsquo;est le véritable cerveau du projet qui gère toute la complexité : les icônes, les animations CSS, et les configurations de build pour Electron ou le mobile[cite: 1]. [cite_start]Cela évite d&rsquo;avoir à configurer manuellement Webpack ou d&rsquo;installer des dizaines de librairies tierces comme Bootstrap ou Moment.js, car Quasar fournit déjà une suite d&rsquo;outils UI performants et complets[cite: 1].</p>
+<h2 id="un-cas-pratique--lintégration-firebase">Un cas pratique : L&rsquo;intégration Firebase<a href="#un-cas-pratique--lintégration-firebase" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>[cite_start]Pour illustrer ces concepts, l&rsquo;article détaille la création d&rsquo;une <strong>application de prise de notes (&ldquo;Notes App&rdquo;)</strong>[cite: 1].
+[cite_start]Ce qui est intéressant pour mes futurs projets, c&rsquo;est que l&rsquo;auteur ne se contente pas du front-end : il connecte l&rsquo;application à <strong>Firebase</strong> pour stocker et récupérer les données[cite: 1]. [cite_start]Cela démontre que Quasar s&rsquo;intègre parfaitement dans une stack moderne, capable de gérer des données en temps réel tout en conservant une interface fluide basée sur les guidelines Material Design[cite: 1].</p>
+<h2 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Cet article m&rsquo;a permis de changer de perspective. Je ne vois plus Quasar comme une simple trousse à outils pour dépanner un design, mais comme une fondation solide pour mon prochain projet. Il existe d&rsquo;autres framework mais c&rsquo;est un premier pas pour comprendre mieux leur fonctionnement et faire un choix pertinient selon le besoin.</p>
+<p><strong>Source de l&rsquo;article: <a href="https://www.smashingmagazine.com/2021/10/introduction-quasar-framework-cross-platform-applications/">https://www.smashingmagazine.com/2021/10/introduction-quasar-framework-cross-platform-applications/</a></strong></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://localhost:1313/posts/article2/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Article2</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="http://localhost:1313/posts/llm/">
+                <span class="button__text">Utilisateion des LLM pour me former</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
