@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systeme on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/systeme/</link>
+    <description>Recent content in Systeme on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jan 2026 15:29:24 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/systeme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Système d&#39;écoute mis en place</title>
+      <link>http://localhost:1313/posts/sytemeecoute/</link>
+      <pubDate>Sat, 24 Jan 2026 15:29:24 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/sytemeecoute/</guid>
+      <description>&lt;p&gt;Pour réaliser une veille efficace sans me laisser submerger par le bruit numérique, j&amp;rsquo;ai mis en place un &amp;ldquo;système d&amp;rsquo;écoute&amp;rdquo; strict. L&amp;rsquo;objectif est de séparer clairement ma vie personnelle de ma veille technologique, afin de garantir que chaque minute passée sur ce profil soit productive.&lt;/p&gt;
+&lt;p&gt;Voici comment j&amp;rsquo;ai architecturé mon flux d&amp;rsquo;information.&lt;/p&gt;
+&lt;h2 id=&#34;1-la-stratégie-du-bac-à-sable-profil-chrome-dédié&#34;&gt;1. La Stratégie du &amp;ldquo;Bac à Sable&amp;rdquo; (Profil Chrome dédié)&lt;/h2&gt;
+&lt;p&gt;La pierre angulaire de mon système est la création d&amp;rsquo;un &lt;strong&gt;environnement totalement isolé&lt;/strong&gt;. J&amp;rsquo;ai créé une adresse Gmail spécifique et un &lt;strong&gt;profil Google Chrome dédié&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Pour réaliser une veille efficace sans me laisser submerger par le bruit numérique, j&amp;rsquo;ai mis en place un &amp;ldquo;système d&amp;rsquo;écoute&amp;rdquo; strict. L&amp;rsquo;objectif est de séparer clairement ma vie personnelle de ma veille technologique, afin de garantir que chaque minute passée sur ce profil soit productive.&lt;/p&gt;
+&lt;p&gt;Voici comment j&amp;rsquo;ai architecturé mon flux d&amp;rsquo;information.&lt;/p&gt;
+&lt;h2 id=&#34;1-la-stratégie-du-bac-à-sable-profil-chrome-dédié&#34;&gt;1. La Stratégie du &amp;ldquo;Bac à Sable&amp;rdquo; (Profil Chrome dédié)&lt;/h2&gt;
+&lt;p&gt;La pierre angulaire de mon système est la création d&amp;rsquo;un &lt;strong&gt;environnement totalement isolé&lt;/strong&gt;. J&amp;rsquo;ai créé une adresse Gmail spécifique et un &lt;strong&gt;profil Google Chrome dédié&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cette séparation offre deux avantages majeurs :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zéro distraction :&lt;/strong&gt; Lorsque j&amp;rsquo;ouvre ce profil, je n&amp;rsquo;ai accès ni à mes emails personnels, ni aux suggestions YouTube de divertissement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithmes propres :&lt;/strong&gt; En créant de nouveaux comptes sur les réseaux sociaux avec cet email, je m&amp;rsquo;assure que les algorithmes de recommandation ne me proposent que du contenu lié au développement web, à la musique et à l&amp;rsquo;éco-conception, sans être pollués par mes navigations passées.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-le-moteur-de-veille--inoreader-rss&#34;&gt;2. Le Moteur de Veille : Inoreader (RSS)&lt;/h2&gt;
+&lt;p&gt;Plutôt que de subir l&amp;rsquo;information (Push), je préfère aller la chercher (Pull). Pour cela, j&amp;rsquo;utilise &lt;strong&gt;Inoreader&lt;/strong&gt; comme agrégateur de flux RSS central. C&amp;rsquo;est ici que je centralise les articles de fond.&lt;/p&gt;
+&lt;p&gt;Mes sources principales incluent :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Les Incontournables :&lt;/strong&gt; &lt;em&gt;Smashing Magazine&lt;/em&gt; pour la qualité éditoriale sur le design et le front-end, et &lt;em&gt;Medium&lt;/em&gt; pour les retours d&amp;rsquo;expérience développeurs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La scène francophone :&lt;/strong&gt; &lt;em&gt;La Console&lt;/em&gt;, qui offre une excellente pédagogie sur les concepts fondamentaux.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&amp;rsquo;inspiration Agence :&lt;/strong&gt; Je suis de près les publications d&amp;rsquo;agences créatives comme &lt;em&gt;Yield&lt;/em&gt; pour rester connecté aux tendances du marché.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Actuellement en version gratuite, j&amp;rsquo;utilise les dossiers d&amp;rsquo;Inoreader pour classer les articles à lire. Bien que certaines automatisations soient réservées à la version Pro, cette contrainte m&amp;rsquo;oblige à trier manuellement, ce qui renforce la pertinence de ce que je conserve.&lt;/p&gt;
+&lt;h2 id=&#34;3-les-canaux-sociaux-et-la-découverte&#34;&gt;3. Les Canaux Sociaux et la Découverte&lt;/h2&gt;
+&lt;p&gt;Pour capter les signaux faibles et les discussions communautaires, j&amp;rsquo;ai recréé des comptes sur &lt;strong&gt;X (Twitter)&lt;/strong&gt;, &lt;strong&gt;Bluesky&lt;/strong&gt;, &lt;strong&gt;Reddit&lt;/strong&gt; et &lt;strong&gt;Pinterest&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sur ces plateformes, je ne suis que des profils techniques ciblés (experts front-end, compositeurs utilisant le web, spécialistes de l&amp;rsquo;accessibilité). &lt;strong&gt;Bluesky&lt;/strong&gt;, en particulier, s&amp;rsquo;avère être un excellent refuge pour retrouver une communauté Tech bienveillante et pertinente.&lt;/p&gt;
+&lt;h2 id=&#34;4-les-newsletters-information-curée&#34;&gt;4. Les Newsletters (Information Curée)&lt;/h2&gt;
+&lt;p&gt;Pour compléter le flux RSS, je suis abonné à une sélection drastique de newsletters qui arrivent sur ma boîte mail dédiée :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Techpresso :&lt;/strong&gt; Pour une vision macro de l&amp;rsquo;actualité tech.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Weekly :&lt;/strong&gt; Indispensable pour suivre les nouvelles spécifications du W3C et les astuces d&amp;rsquo;intégration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SitePoint :&lt;/strong&gt; Pour des tutoriels pratiques et leur couverture récente des outils d&amp;rsquo;IA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Console :&lt;/strong&gt; Pour son format &amp;ldquo;2 minutes pour comprendre&amp;rdquo; très didactique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-stockage-et-capitalisation&#34;&gt;5. Stockage et Capitalisation&lt;/h2&gt;
+&lt;p&gt;Mon système de stockage reste volontairement simple pour l&amp;rsquo;instant :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Favoris Chrome :&lt;/strong&gt; Pour les outils et documentations que j&amp;rsquo;utilise fréquemment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inoreader &amp;ldquo;Saved Web Pages&amp;rdquo; :&lt;/strong&gt; Pour les articles de fond que je dois lire ou annoter plus tard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ce système est voué à évoluer. La version gratuite d&amp;rsquo;Inoreader limite l&amp;rsquo;intégration directe des newsletters dans le flux RSS, mais cette configuration &amp;ldquo;MVP&amp;rdquo; (Minimum Viable Product) est amplement suffisante pour filtrer le web efficacement et nourrir les articles de ce blog.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 +++
-title = "Article"
-date = "2026-01-15T11:07:27+01:00"
+title = "Utilisateion des LLM pour me former"
+date = "2026-01-24T15:29:32+01:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
